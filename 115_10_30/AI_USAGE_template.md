@@ -21,5 +21,5 @@
 | 使用目的與提問摘要 | 檢查「指令固定 0–3，所以 counts 不需範圍檢查」；沒有向真實 AI 提問 |
 | AI 建議與本人處理 | 我拒絕這個建議：日誌也記無效指令。我恢復 command >= 0 && command < counts.length，再累加 counts[command] |
 | 實際驗證結果 | 副本使用 {3,9,0}，修改前在 counts[9] 越界；恢復檢查後 counts=[1,0,0,1]、steps=3、ok=0、rejected=2、ignored=0，結果 RETURNED。重測 {1,1,2} 得 6/5/3 SUCCESS；完整輸出記在 LAB_REPORT F3 |
-| gemini | (https://raw.githubusercontent.com/a113230008-svg/115_1_JAVA/main/images/gemini.png)
-| chatgpt | (https://raw.githubusercontent.com/a113230008-svg/115_1_JAVA/main/images/chatgpt.png)
+| gemini | ![gemini](https://raw.githubusercontent.com/a113230008-svg/115_1_JAVA/main/images/gemini.png)
+| chatgpt | ![chatgpt](https://raw.githubusercontent.com/a113230008-svg/115_1_JAVA/main/images/chatgpt.png)
