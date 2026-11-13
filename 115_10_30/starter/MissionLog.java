@@ -91,7 +91,7 @@ public class MissionLog {
         int[] counts = new int[4];
         // TODO 1：走訪 commandLog；指令在 0..3 才增加 counts[command]。
         for (int command : commandLog) {
-            if (command >= 0 && command <= 3) {
+            if (command >= 0 && command < counts.length) {
                 counts[command]++;
             }
         }
